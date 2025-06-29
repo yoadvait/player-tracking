@@ -1,0 +1,30 @@
+# Player Re-identification Configuration
+
+detection:
+  model_path: "models/best.pt"
+  conf_threshold: 0.5
+  iou_threshold: 0.45
+  device: "cuda"
+
+tracking:
+  max_age: 30
+  min_hits: 3
+  iou_threshold: 0.3
+  max_distance: 0.2
+
+reidentification:
+  feature_dim: 512
+  similarity_threshold: 0.7
+  gallery_size: 100
+  temporal_window: 30
+
+visualization:
+  show_trails: true
+  show_ids: true
+  show_confidence: true
+  trail_length: 30
+
+video:
+  input_path: "data/input/15sec_input_720p.mp4"
+  output_path: "outputs/videos/tracked_output.mp4"
+  fps: 30
