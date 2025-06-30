@@ -10,5 +10,4 @@ from .detection import *
 from .tracking import *
 from .reidentification import *
 from .features import *
-from .evaluation import *
 from .visualization import *
