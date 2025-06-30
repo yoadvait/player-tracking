@@ -1,0 +1,23 @@
+{
+  "frames_processed": 750,
+  "total_tracks": 209,
+  "active_tracks": 1,
+  "lost_tracks": 18,
+  "id_switches": 0,
+  "avg_track_length": 6.5879396984924625,
+  "expected_feature_dim": 512,
+  "reid_attempts": 45,
+  "successful_reids": 10,
+  "reid_success_rate": 0.2222222222222222,
+  "jersey_detections": 0,
+  "gallery_stats": {
+    "total_entries": 100,
+    "active_tracks": 206,
+    "inactive_tracks": 0,
+    "successful_reids": 10,
+    "false_matches": 0,
+    "average_quality": 0.5270104299163735,
+    "feature_dimension": 512,
+    "using_faiss": true
+  }
+}

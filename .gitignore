@@ -8,11 +8,8 @@ venv/
 env/
 .env
 
-# Data and models
-data/input/*.mp4
 models/*.pt
-outputs/
-*.weights
+data/input/*.mp4
 
 # IDE
 .vscode/

@@ -1,0 +1,70 @@
+average_fps: 0.7164343106120772
+classification_stats:
+  classification_enabled: true
+  team_colors:
+    0: !!python/object/apply:numpy._core.multiarray._reconstruct
+      args:
+      - &id001 !!python/name:numpy.ndarray ''
+      - !!python/tuple
+        - 0
+      - !!binary |
+        Yg==
+      state: !!python/tuple
+      - 1
+      - !!python/tuple
+        - 6
+      - &id002 !!python/object/apply:numpy.dtype
+        args:
+        - f8
+        - false
+        - true
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - false
+      - !!binary |
+        2jiiNrNZVkAM677TEv5iQHd/fGLJkF5Aedsyonm9VkDnrkhqCyhjQDHFcBYP/F5A
+    1: !!python/object/apply:numpy._core.multiarray._reconstruct
+      args:
+      - *id001
+      - !!python/tuple
+        - 0
+      - !!binary |
+        Yg==
+      state: !!python/tuple
+      - 1
+      - !!python/tuple
+        - 6
+      - *id002
+      - false
+      - !!binary |
+        UVXVr4nsVEAkCPgUcA9iQOynlBtAzlxAhwCDm36bVEAln8pWzO9hQDnlhcAco1xA
+  total_assignments: 332
+  unique_players_classified: 36
+detection_stats:
+  avg_detections_per_frame: 12.077333333333334
+  class_names:
+    0: ball
+    1: goalkeeper
+    2: player
+    3: referee
+  frames_processed: 375
+  model_path: models/best.pt
+  total_detections: 4529
+frames_processed: 375
+total_time: 523.4255177974701
+tracking_stats:
+  active_tracks: 1
+  avg_track_length: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id002
+  - !!binary |
+    ZU1ZU9aUNUA=
+  frames_processed: 375
+  id_switches: 0
+  total_tracks: 43
